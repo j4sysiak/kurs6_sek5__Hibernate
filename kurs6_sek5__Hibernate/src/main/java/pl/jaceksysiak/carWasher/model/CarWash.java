@@ -17,7 +17,7 @@ public class CarWash {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 
-	@ManyToOne
+	@ManyToOne   // jeden samochód może mieć wiele instancji mycia (może być wiele razy myty)    Many(wieleRazyMyty)ToOne(Car)
 	private Car car;
 
 	private Date date;

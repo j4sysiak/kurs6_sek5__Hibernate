@@ -17,7 +17,7 @@ public class Car {
 
 	private String color;
 
-	@ManyToOne
+	@ManyToOne   // jeden kierowca może mieć wiele samochodów    Many(Driver)ToOne(Car)
 	private Driver driver;
 
 	private int year;
