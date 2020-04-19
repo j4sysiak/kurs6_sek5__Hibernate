@@ -1,1 +1,1 @@
-http://localhost:8080/carWasherController/cacheBustingTest
+http://localhost:8080/carWasherController/cars

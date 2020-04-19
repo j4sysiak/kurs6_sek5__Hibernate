@@ -1,4 +1,4 @@
-package pl.jaceksysiak.carWasher.dao.jpa;
+package pl.carWasher.dao.jpa;
 
 
 
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import pl.jaceksysiak.carWasher.model.Car;
+import pl.carWasher.model.Car;
 
 
 @Repository

@@ -1,4 +1,4 @@
-package pl.jaceksysiak.carWasher.web;
+package pl.carWasher.web;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import pl.jaceksysiak.carWasher.dao.jpa.CarWasherRepository;
-import pl.jaceksysiak.carWasher.model.Car;
+import pl.carWasher.dao.jpa.CarWasherRepository;
+import pl.carWasher.model.Car;
 
 @Controller
 @RequestMapping("/carWasherController")

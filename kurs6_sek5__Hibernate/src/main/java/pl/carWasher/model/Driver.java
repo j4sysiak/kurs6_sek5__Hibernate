@@ -1,4 +1,4 @@
-package pl.jaceksysiak.carWasher.model;
+package pl.carWasher.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
